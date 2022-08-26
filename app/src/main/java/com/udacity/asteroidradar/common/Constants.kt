@@ -7,4 +7,6 @@ object Constants {
     const val DEFAULT_END_DATE_DAYS = 7
     const val BASE_URL = "https://api.nasa.gov/"
     const val api_key = BuildConfig.NASA_API_KEY
+    const val WORK_NAME = "RefreshDataWorker"
 }
+

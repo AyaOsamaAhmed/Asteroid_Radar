@@ -43,6 +43,7 @@
             tools:src="@drawable/ic_status_normal"
             android:textColor="@color/default_text_color"
             app:asteroidImageIsHazardousContentDescription="@{asteroid.potentiallyHazardous}"
+            android:contentDescription ="@string/is_hazardous_img_desc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/asteroid_num" />
